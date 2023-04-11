@@ -13,7 +13,6 @@ Get-Date -Format "yyyy-mm-dd HH:MM"
 
      Write-Host $SID, $Profile, $UserSid.LastUseTime
    } # End ForEach ($UserSid in $GetSids) 
-    
   } # End Try, Get Sid and translate them
 
 Catch
